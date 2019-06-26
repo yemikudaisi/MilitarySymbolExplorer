@@ -66,6 +66,12 @@
     <Compile Include="Symbology\StandardIdentity.cs" />
     <Compile Include="Symbology\Status.cs" />
     <Compile Include="Symbology\SymbolSet.cs" />
+    <Compile Include="Symbology\SymbolSetBuilder.cs" />
+    <Compile Include="Symbology\SymbolSets\Entity.cs" />
+    <Compile Include="Symbology\SymbolSets\EntitySubType.cs" />
+    <Compile Include="Symbology\SymbolSets\EntityType.cs" />
+    <Compile Include="Symbology\SymbolSets\Identity.cs" />
+    <Compile Include="Symbology\SymbolSets\SymbolSet.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
