@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitarySymbolExplorer.Wpf", "MilitarySymbolExplorer.Wpf\MilitarySymbolExplorer.Wpf.csproj", "{3B8B3BA2-FBA2-4B64-B917-B066A705B63F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B8B3BA2-FBA2-4B64-B917-B066A705B63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8B3BA2-FBA2-4B64-B917-B066A705B63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8B3BA2-FBA2-4B64-B917-B066A705B63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8B3BA2-FBA2-4B64-B917-B066A705B63F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62CE840D-81EB-4C52-8E24-BE5AB8DA5F45}
+	EndGlobalSection
+EndGlobal
