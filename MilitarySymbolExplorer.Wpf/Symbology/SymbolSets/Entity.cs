@@ -6,14 +6,28 @@ using System.Threading.Tasks;
 
 namespace MilitarySymbolExplorer.Wpf.Symbology.SymbolSets
 {
-    public abstract class Entity : Identity
+    public class Entity : Identity
     {
-        protected Entity(string name, string identifier, IList<EntityType> types)
+        private EntityType _type;
+        private EntitySubType _subType;
+
+        public EntityType Type { get { return _type; } }
+        public EntitySubType SubType { get { return _subType; } }
+
+        public Entity(string name, string identifier)
             : base(name, identifier)
         {
-            Types = types;
         }
 
-        public IList<EntityType> Types { get; set; }
+        public Entity SetType(EntityType type)
+        {
+            _type = type;
+            return this;
+        }
+        public Entity SetSubType(EntitySubType type)
+        {
+            _subType = type;
+            return this;
+        }
     }
 }

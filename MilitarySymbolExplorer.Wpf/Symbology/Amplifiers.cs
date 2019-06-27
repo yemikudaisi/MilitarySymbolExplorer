@@ -4,7 +4,7 @@ using System.ComponentModel;
 namespace MilitarySymbolExplorer.Wpf.Symbology
 {
     [TypeConverter(typeof(EnumDescriptionTypeConverter))]
-    public enum Amplifier
+    public enum BaseAmplifier
     {
         [Description("Not Applicable")]
         NotApplicable,

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MilitarySymbolExplorer.Wpf.Symbology
 {
-    public enum Context
+    public enum StandardEnityOnes
     {
         Reality,
         Exercise,

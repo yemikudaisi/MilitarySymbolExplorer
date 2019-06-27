@@ -1,5 +1,6 @@
 ﻿using MilitarySymbolExplorer.Wpf.Extensions;
 using MilitarySymbolExplorer.Wpf.Infrastructure;
+using MilitarySymbolExplorer.Wpf.Symbology;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,8 @@ namespace MilitarySymbolExplorer.Wpf
         public MainWindow()
         {
             InitializeComponent();
-            Console.WriteLine(Test.A.GetString());
-            Console.WriteLine(Test.B.GetString());
-            Console.WriteLine(Test.C.GetString());
+            var sym = new Symbol();
+            Console.WriteLine(sym);
         }
     }
     enum Test

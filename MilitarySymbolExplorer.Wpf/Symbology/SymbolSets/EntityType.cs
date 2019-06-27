@@ -8,12 +8,9 @@ namespace MilitarySymbolExplorer.Wpf.Symbology.SymbolSets
 {
     public class EntityType : Identity
     {
-        protected EntityType(string name, string identifier, IList<EntitySubType> types)
+        public EntityType(string name, string identifier)
         : base(name, identifier)
         {
-            SubTypes = types;
         }
-
-        public IList<EntitySubType> SubTypes { get; set; }
     }
 }
