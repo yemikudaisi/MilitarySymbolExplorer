@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MilitarySymbolExplorer.Wpf.Symbology.SymbolSets
 {
-    public class Entity : Identity
+    public class Entity : DomainCoded
     {
         private EntityType _type;
         private EntitySubType _subType;

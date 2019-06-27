@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MilitarySymbolExplorer.Wpf.Symbology.SymbolSets
 {
-    public class Modifier : Identity
+    public class Modifier : DomainCoded
     {
         public Modifier(string name, string identifier) : base(name, identifier)
         {

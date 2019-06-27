@@ -2,12 +2,12 @@
 
 namespace MilitarySymbolExplorer.Wpf.Symbology.SymbolSets
 {
-    public abstract class Identity : IComparable
+    public abstract class DomainCoded : IComparable
     {
         public string Name { get; set; }
         public string Identifier { get; set; }
 
-        public Identity(string name, string identifier)
+        public DomainCoded(string name, string identifier)
         {
             Name = name;
             Identifier = identifier;
@@ -15,7 +15,7 @@ namespace MilitarySymbolExplorer.Wpf.Symbology.SymbolSets
 
         public int CompareTo(object obj)
         {
-            return string.Compare(this.Name, ((Identity)obj).Name);
+            return string.Compare(this.Name, ((DomainCoded)obj).Name);
         }
     }
 }
